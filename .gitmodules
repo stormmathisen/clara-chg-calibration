@@ -1,0 +1,3 @@
+[submodule "charge_front_end_cli"]
+	path = charge_front_end_cli
+	url = https://github.com/stormmathisen/charge_front_end_cli.git
