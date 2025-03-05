@@ -5,7 +5,10 @@
 git clone --recurse-submodules https://github.com/stormmathisen/clara-chg-calibration.git
 ```
 
-Setup a venv of your choice 
+Setup a venv of your choice (https://code.visualstudio.com/docs/python/environments#_creating-environments)
+Try to use python 3.10, as this is what we're standardizing to on CLARA
+
+Then install the required python modules into the venv and compile the CLI for talking to the front end
 ```
 pip install -r requirements.txt
 pyinstaller ./charge_front_end_cli/chg_fe_cli.spec
